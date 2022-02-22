@@ -1,55 +1,59 @@
 body {
-  background-color: black;
-  color: white;
-  text-align: center;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
 
 h1 {
-				color: red;
-				font-weight: bold;
-				font-family: Helvetica;
-				background-color: #303030;
-				border: solid 5px #303030;
-				border-radius: 10px;
+    color: red;
+    font-weight: bold;
+    font-family: Helvetica;
+    background-color: #303030;
+    border: solid 5px #303030;
+    border-radius: 10px;
 }
 
 .comingsoon {
-				font-size: 40px;
-				font-weight: bolder;
-				color: yellow;
-				font-family: 'Courier New', monospace;
+    font-size: 40px;
+    font-weight: bolder;
+    color: yellow;
+    font-family: "Courier New", monospace;
 }
 
 .description {
-   text-align: left;
-   margin: 15px;
-				border: solid 4px  purple;
-				padding: 12px;
-				background-color: #2b0132;
+    text-align: left;
+    margin: 15px;
+    border: solid 4px purple;
+    padding: 12px;
+    background-color: #2b0132;
 }
 
-summary {list-style: none}
-summary::-webkit-details-marker {display: none; }
+summary {
+    list-style: none;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
 
 .proinfo {
-				text-align: left;
-				margin: 40px 15px ;
-				border: solid 2px green;
-				border-radius: 5px;
-				padding: 12px;
-				background-color: #003300;
-}
- 
-.contacts {
-				margin-top: 20px;
-				height: 25px;
-				width: 25px;
+    text-align: left;
+    margin: 40px 15px;
+    border: solid 2px green;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #003300;
 }
 
-.credit { 
-				margin-top: 30px;
-   font-size: 20px;
-				font-weight: normal;
-				color: greenyellow;
-				font-family: "Brush Script MT", cursive;
+.contacts {
+    margin-top: 20px;
+    height: 25px;
+    width: 25px;
+}
+
+.credit {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: normal;
+    color: greenyellow;
+    font-family: "Brush Script MT", cursive;
 }
