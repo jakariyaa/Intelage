@@ -1,64 +1,68 @@
 body {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bodydiv {
+  text-align: center;
+  font-family: sans-serif;
+  width: 375px;
+  margin: auto;
 }
 
 h1 {
-    color: red;
-    font-weight: bold;
-    font-family: Verdana;
-    background-color: #303030;
-    border: solid 5px #303030;
-    border-radius: 10px;
+  color: red;
+  font-weight: bold;
+  font-family: Verdana;
+  background-color: #303030;
+  margin: 15px;
+  border: solid 5px #303030;
+  border-radius: 100px;
+  padding-bottom: 2px;
 }
 
 .comingsoon {
-    font-size: 40px;
-    font-weight: bolder;
-    color: yellow;
-    font-family: "Courier New", monospace;
+  font-size: 40px;
+  font-weight: bolder;
+  color: yellow;
+  font-family: "Courier New", monospace;
 }
 
 .description {
-    text-align: left;
-    margin: 15px;
-    border: solid 4px purple;
-    padding: 12px;
-    background-color: #2b0132;
-}
-
-summary {
-    list-style: none;
-}
-summary::-webkit-details-marker {
-    display: none;
+  text-align: left;
+  margin: 15px;
+  border: solid 4px purple;
+  padding: 12px;
+  background-color: #2b0132;
 }
 
 .proinfo {
-    text-align: left;
-    margin: 35px 15px 55px;
-    border: solid 2px green;
-    border-radius: 5px;
-    padding: 12px;
-    background-color: #003300;
+  text-align: left;
+  margin: 35px 15px 55px;
+  border: solid 2px green;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #003300;
 }
 
 h3 {
-				margin-top: 65px;
-				color: cyan;
+  margin-top: 65px;
+  color: cyan;
 }
 
 .contacts {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .credit {
-    margin-top: 30px;
-    font-size: 25px;
-    font-weight: normal;
-    color: greenyellow;
-    font-family: "Brush Script MT", cursive;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: normal;
+  color: greenyellow;
+  font-family: "Brush Script MT", cursive;
 }
