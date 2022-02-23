@@ -2,12 +2,13 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+    font-family: sans-serif;
 }
 
 h1 {
     color: red;
     font-weight: bold;
-    font-family: Helvetica;
+    font-family: Verdana;
     background-color: #303030;
     border: solid 5px #303030;
     border-radius: 10px;
@@ -37,22 +38,26 @@ summary::-webkit-details-marker {
 
 .proinfo {
     text-align: left;
-    margin: 40px 15px;
+    margin: 35px 15px 55px;
     border: solid 2px green;
     border-radius: 5px;
     padding: 12px;
     background-color: #003300;
 }
 
+h3 {
+				margin-top: 65px;
+				color: cyan;
+}
+
 .contacts {
-    margin-top: 20px;
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
 }
 
 .credit {
     margin-top: 30px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: normal;
     color: greenyellow;
     font-family: "Brush Script MT", cursive;
